@@ -1,6 +1,6 @@
-!pip install transformers
-!pip install datasets
-!pip install torch
+#pip install transformers
+#pip install datasets
+#pip install torch
 from transformers import pipeline
 spam_classifier = pipeline(
     "text-classification",
