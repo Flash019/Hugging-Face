@@ -1,4 +1,4 @@
-!pip install transformers torch
+#pip install transformers torch
 from transformers import AutoModelForSeq2SeqLM , AutoTokenizer
 # Load a pre-trained model and tokenizer
 
